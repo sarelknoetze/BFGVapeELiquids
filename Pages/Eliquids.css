@@ -1,0 +1,32 @@
+/* product-item
+product-item img
+product-info */
+/* Container for the E-Liquids section */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start; /* Align items at the top of the container */
+    padding: 10px 0;
+}
+
+/* Style for each E-Liquid item */
+.product-item {
+    margin-right: 2%; /* Add spacing between items */
+    border: 1px solid black;
+    box-shadow: 2px 5px 5px 0px black;
+    margin-bottom: 2%;
+}
+
+/* Style for E-Liquid images */
+.product-item img {
+    height: 200px;
+    width: 150px;
+    object-fit: contain; /* Maintain image aspect ratio */
+    border: 1px solid #ccc; /* Add a border for clarity */
+}
+
+/* Style for E-Liquid information */
+.product-info {
+    text-align: center;
+}
+

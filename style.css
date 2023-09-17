@@ -1,0 +1,227 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+  
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+.warning{
+    background-color: black;
+    border: 3px solid red;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+
+.warningIcon{
+    color: yellow;
+    border-radius: 40%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.whiteText{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 6.5%;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+.category-nav {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.category-item {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.category-item a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Hide subcategory lists by default */
+.subcategory-list {
+    display: none;
+}
+
+.homeImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./Images/Img.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+    min-height: 450px;
+}
+
+.centeredContent{
+    text-align: center;
+}
+
+.imageWords{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.centeredButton{
+    text-align: center;
+}
+
+.seeNowBtn {
+    border-radius: 100px;
+    background-color: #FF5733;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.fb{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.brandImagesContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brandImagesRow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    max-height: 200px;
+}
+
+.brandImagesRow img{
+    width: 20%;
+    max-height: 200px;
+}
+
+.homeBtm{
+    padding-top: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f5f5;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.disclaimer{
+    padding: 2%;
+    color: #b4abab;
+}
+
+.copyright{
+    text-align: center;
+    margin: 0;
+    background-color: #e9e1e1;
+    height: 40px;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+/* Container for the E-Liquids section */
+.viewEliquids, .viewDevices, .viewDisposables, .viewTanks {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+    overflow-x: scroll; /* Enable horizontal scrolling if necessary */
+    padding: 10px 0;
+}
+
+/* Style for each E-Liquid item */
+.eliquid-item, .device-item, .disposable-item, .tank-item {
+    margin-right: 2%; /* Add spacing between items */
+    border: 1px solid black;
+    box-shadow: 2px 5px 5px 0px black;
+}
+
+/* Style for E-Liquid images */
+.eliquid-item img, .device-item img, .disposable-item img, .tank-item img {
+    height: 200px;
+    width: 150px;
+    object-fit: contain; /* Maintain image aspect ratio */
+    border: 1px solid #ccc; /* Add a border for clarity */
+}
+
+/* Style for E-Liquid information */
+.eliquid-info, .device-info, .disposable-info, .tank-info {
+    text-align: center;
+}
+
+/* Optional: Adjust scrollbar appearance */
+.viewEliquids::-webkit-scrollbar, .viewDevices::-webkit-scrollbar, .viewDisposables::-webkit-scrollbar, .viewTanks::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+    height: 10px; /* Height of the horizontal scrollbar (optional) */
+}
+
+.viewEliquids::-webkit-scrollbar-thumb, .viewDevices::-webkit-scrollbar-thumb, .viewDisposables::-webkit-scrollbar-thumb, .viewTanks::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 5px; /* Round the corners of the thumb */
+}
+
+.viewEliquids::-webkit-scrollbar-thumb:hover, .viewDevices::-webkit-scrollbar-thumb:hover, .viewDisposables::-webkit-scrollbar-thumb:hover, .viewTanks::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the thumb on hover */
+}
+
+/* Add this to your CSS file or in a <style> tag in the HTML head */
+.whatsapp {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.whatsapp:hover {
+    background-color: darkgreen;
+}
